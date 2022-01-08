@@ -13,7 +13,7 @@ const condorPremium = (longCall, shortCall, longPut, shortPut, calls, puts) => {
         }
         for (var i = 0; i < puts.length; i++){
             if (puts[i].strike == shortPut){
-                shortPutIndex = 1;
+                shortPutIndex = i;
                 break;
             }
         }
@@ -44,7 +44,7 @@ const maxLoss = (longCall, shortCall, longPut, shortPut, calls, puts) => {
 
 const breakEvenCall = (longCall, shortCall, longPut, shortPut, calls, puts) => {
     var premium = condorPremium(longCall, shortCall, longPut, shortPut, calls, puts);
-    return (shortCall + premium);
+    return (+shortCall + +premium);
 }
 
 const breakEvenPut = (longCall, shortCall, longPut, shortPut, calls, puts) => {
