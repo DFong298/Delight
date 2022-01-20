@@ -17,7 +17,7 @@ import HomePage from './Components/HomePage/HomePage'
 function App() {
   return (
     <div className='App'>
-      <HashRouter>
+      <HashRouter basename='/'>
       <CustomNavbar/>
         <Routes>
           <Route exact path='/' element={<HomePage/>}/>
