@@ -1,10 +1,9 @@
 import React from 'react';
-import {Navbar, Nav, NavDropdown, Container} from "react-bootstrap";
+import {Navbar, Nav, Container} from "react-bootstrap";
 import DelightLogo from '../../Assets/DelightLogo.png';
 import './CustomNavbar.css';
-import About from '../Pages/About/About';
-import Strategies from '../Pages/Strategies/Strategies';
-import { Link, NavLink } from 'react-router-dom';
+
+import { NavLink } from 'react-router-dom';
 
 
 const CustomNavbar = () => {
@@ -12,7 +11,7 @@ const CustomNavbar = () => {
         <div>
             <Navbar className='nav-color'>
                 <Container>
-                    <Navbar.Brand href="/" className='logo'>
+                    <Navbar.Brand href="/Delight/" className='logo'>
                         <img
                         alt="Delight Logo"
                         src={DelightLogo}
