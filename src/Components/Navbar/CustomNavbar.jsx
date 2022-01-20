@@ -11,7 +11,7 @@ const CustomNavbar = () => {
         <div>
             <Navbar className='nav-color'>
                 <Container>
-                    <Navbar.Brand href="/Delight/" className='logo'>
+                    <Navbar.Brand href="/delight" className='logo'>
                         <img
                         alt="Delight Logo"
                         src={DelightLogo}
