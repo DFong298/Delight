@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Delight/static/css/main.e2f7542b.css",
-    "main.js": "/Delight/static/js/main.c7c96ca0.js",
+    "main.js": "/Delight/static/js/main.79fc8c1c.js",
     "static/media/pCollar.png": "/Delight/static/media/pCollar.5fd9fd140d6dab41d2ef.png",
     "static/media/putSpread.png": "/Delight/static/media/putSpread.f3e182108c36dced741f.png",
     "static/media/callSpread.png": "/Delight/static/media/callSpread.a5dea8fe3b81a1f0fd19.png",
@@ -9,10 +9,10 @@
     "static/media/HomepageDecor.png": "/Delight/static/media/HomepageDecor.4a00aa3e1548b789ca55.png",
     "index.html": "/Delight/index.html",
     "main.e2f7542b.css.map": "/Delight/static/css/main.e2f7542b.css.map",
-    "main.c7c96ca0.js.map": "/Delight/static/js/main.c7c96ca0.js.map"
+    "main.79fc8c1c.js.map": "/Delight/static/js/main.79fc8c1c.js.map"
   },
   "entrypoints": [
     "static/css/main.e2f7542b.css",
-    "static/js/main.c7c96ca0.js"
+    "static/js/main.79fc8c1c.js"
   ]
 }
