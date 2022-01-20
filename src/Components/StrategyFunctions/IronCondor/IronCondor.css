@@ -1,0 +1,226 @@
+.page-box {
+    width: 85vw;
+    height: 79vh;
+    background: rgba(15, 15, 15, 0.822);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 25pt;
+    position: relative
+}
+
+.condor-title {
+    color: #75CAFF;
+    position: relative;
+    font-size: 80pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    left: -20vw;
+    top: 7vh;
+}
+
+.condor-calls {
+    position: absolute;
+    color: white;
+    font-size: 46pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    top: 45vh;
+    left: 9.7vw;
+}
+
+.condor-puts {
+    position: absolute;
+    color: white;
+    font-size: 46pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    top: 25vh;
+    left: 10vw;
+}
+
+.condor-line {
+    width: 350px;
+    height: 5px;
+    background-color: white;
+    top: 4vh;
+    right: -6.5vw;
+    position: relative;
+}
+
+.label {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    top: 9vh;
+    right: 6vw;
+}
+
+.condor-input {
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 40pt;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    top: -5.2vh;
+}
+
+.ticker-label {
+    position: relative;
+    left: 27vw;
+    top: -8vh;
+}
+
+.long-put-label {
+    position: relative;
+    top: 7vh;
+    left: -12vw;
+}
+
+.short-put-label {
+    position: relative;
+    top: -7.4vh;
+    left: 43vw;
+}
+
+.long-call-label {
+    position: relative;
+    top: 12vh;
+    right: 12vw;
+}
+
+.short-call-label {
+    position: relative;
+    top: -2.4vh;
+    left: 27.2vw;
+}
+
+.condor-submit {
+    position: absolute;
+    background-color:#75CAFF;
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    border: none;
+    width: 13%;
+    top: 13.5vh;
+    right: 7vw;
+}
+
+.condor-profit {
+    position: relative;
+    top: 10vh;
+    left: 32.5vw;
+    height: 100px;
+    width: 350px;
+}
+
+.condor-green-line {
+    width: 350px;
+    height: 5px;
+    background-color: #75FF8B;
+    top: 0.5vh;
+    left: 4.5vw;
+    position: relative;
+}
+
+.condor-gain-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #75FF8B;
+
+}
+
+.condor-max-profit {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #75FF8B;
+    text-align: center;
+    top: -13.3vh;
+    left: 4.85vw;
+}
+
+.condor-loss {
+    position: relative;
+    top: -0.7vh;
+    left: 55.9vw;
+    height: 100px;
+    width: 350px;
+}
+
+.condor-red-line {
+    width: 350px;
+    height: 5px;
+    background-color: #FF7575;
+    top: 0.5vh;
+    left: 4.5vw;
+    position: relative;
+}
+
+.condor-loss-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #FF7575;
+
+}
+
+.condor-max-loss {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #FF7575;
+    text-align: center;
+    top: -13.3vh;
+    left: 4.85vw;
+}
+
+.condor-BE {
+    position: relative;
+    top: -11.4vh;
+    left: 7vw;
+    height: 100px;
+    width: 350px;
+}
+
+.condor-BE-line {
+    width: 350px;
+    height: 5px;
+    background-color: #75CAFF;
+    top: 0.5vh;
+    left: 4.5vw;
+    position: relative;
+}
+
+.condor-BE-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #75CAFF;
+    left: 1vw;
+}
+
+.condor-BE-prices {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #75CAFF;
+    text-align: center;
+    top: -13.3vh;
+    left: 4.75vw;
+}

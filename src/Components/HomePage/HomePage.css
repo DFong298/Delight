@@ -1,0 +1,45 @@
+.home-page {
+    position: absolute;
+    left: 12vw;
+    top: 35vh;
+}
+
+.home-title {
+    font-size: 80pt;
+    color: #75CAFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.home-text {
+    font-size: 34pt;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.try-now-button {
+    position: absolute;
+    background-color:#75CAFF;
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    top: 250px;
+    padding: 0;
+    border: none;
+    width: 30%;
+}
+
+.try-now-button:hover {
+    background-color: #508baf;
+}
+
+.home-image {
+    position: absolute;
+    left: 125%;
+    top: -20%;
+    height: 175%;
+    width: auto;
+}

@@ -1,0 +1,270 @@
+.protective-collar {
+    height: 500px;
+}
+
+.page-box {
+    width: 85vw;
+    height: 79vh;
+    background: rgba(15, 15, 15, 0.822);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 25pt;
+    position: relative;
+}
+
+.collar-ticker-label {
+    display: inline-block;
+    color: white;
+    top: -8vh;
+    right: -48vw;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+}
+
+.collar-title {
+    color: #75CAFF;
+    position: relative;
+    font-size: 80pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    left: -14vw;
+    top: 6vh;
+}
+
+.collar-line {
+    width: 350px;
+    height: 5px;
+    background-color: white;
+    top: -6vh;
+    right: -6.5vw;
+    position: relative;
+}
+
+.collar-options {
+    position: relative;
+    color: white;
+    font-size: 46pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    top: 10vh;
+    left: -24vw;
+}
+
+.cost-basis {
+    position: absolute;
+    color: white;
+    font-size: 46pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    top: 43vh;
+    left: 6.5vw;
+}
+
+.collar-input {
+    position: relative;
+    top: -15vh;
+    left: 6.3vw;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 40pt;
+    width: 350px;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.collar-option{
+    position: relative;
+    right: -3.7vw;
+}
+
+.collar-low-strike {
+    top: 8vh;
+    left: 6.6vw;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: white;
+
+}
+
+.collar-put-input {
+    right: 20vw;
+    position: relative;
+}
+
+.collar-high-strike {
+    top: 8vh;
+    right: -11.5vw;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: white;
+}
+
+.collar-gain{
+    position: relative;
+    top: 8vh;
+    right: -4.4vw;
+    height: 100px;
+    width: 350px;
+}
+
+
+.collar-green-line {
+    width: 350px;
+    height: 5px;
+    background-color: #75FF8B;
+    top: 17.5vh;
+    left: 33vw;
+    position: relative;
+}
+
+.collar-gain-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #75FF8B;
+    top: 17.5vh;
+    left: 28.2vw;
+    height: 100px;
+}
+
+.cost-basis-label {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: white;
+    position: relative;
+    top: 25vh;
+    right: 29.85vw;
+    
+}
+
+.cb-label {
+    right: -5.4vw;
+    position: relative;
+}
+
+.collar-max-profit {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #75FF8B;
+    top: -2vh;
+    left: 33vw;
+    text-align: center;
+    height: 100px;
+}
+
+.collar-loss {
+    position: relative;
+    right: -60.5vw;
+    top: 14.9vh;
+    width: 350px;
+    height: 100px;
+}
+
+.collar-profit-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #FF7575;
+    width: 200px;
+    height: 100px;
+    left: -1vw;
+   
+}
+
+.collar-min-profit {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #FF7575;
+    top: -19vh;
+    left: -0.5vw;
+    text-align: center;
+    
+}
+
+.collar-red-line {
+    width: 350px;
+    height: 5px;
+    background-color: #FF7575;
+    position: relative;
+    
+}
+
+.collar-current {
+    position: relative;
+    left: 10vw;
+    top: 4.2vh;
+    width: 350px;
+    height: 100px;
+}
+
+.collar-current-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #75CAFF;
+    left: -3.3vw;
+   
+}
+
+.collar-current-profit{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #75CAFF;
+    top: -13vh;
+    left: -0.5vw;
+    text-align: center;
+    
+}
+
+.collar-current-line {
+    width: 350px;
+    height: 5px;
+    background-color: #75CAFF;
+    position: relative;
+    
+}
+
+
+.collar-submit {
+    position: absolute;
+    left: 64.3vw;
+    top: 48vh;
+    background-color:#75CAFF;
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    border: none;
+    width: 13%;
+}
+
+.collar-expiry {
+    top: 35vh;
+    left: 68vw;
+    height: 50px;
+    width: 15vw;;
+    position: relative;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}

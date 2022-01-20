@@ -1,0 +1,190 @@
+.page-box {
+    width: 85vw;
+    height: 79vh;
+    background: rgba(15, 15, 15, 0.822);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 25pt;
+    position: relative
+}
+
+.spread-title {
+    color: #75CAFF;
+    position: relative;
+    font-size: 80pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    left: -14vw;
+    top: 7vh;
+}
+
+.option-bought {
+    position: relative;
+    color: white;
+    font-size: 46pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    top: 14vh;
+    left: -24vw;
+}
+
+.spread-ticker-label {
+    display: inline-block;
+    color: white;
+    top: -8vh;
+    right: -37vw;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+}
+
+.spread-line {
+    width: 350px;
+    height: 5px;
+    background-color: white;
+    top: -6vh;
+    right: -6.5vw;
+    position: relative;
+}
+
+.spread-input {
+    position: relative;
+    top: -15vh;
+    left: 6.3vw;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 40pt;
+    width: 350px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.spread-low-strike {
+    top: 12vh;
+    left: -7vw;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: white;
+
+}
+
+.spread-high-strike {
+    top: 12vh;
+    right: -0.55vw;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: white;
+}
+
+.spread-gain{
+    position: relative;
+    top: 30.7vh;
+    left: -0.3vh;
+    height: 100px;
+    width: 350px;
+}
+
+.spread-green-line {
+    width: 350px;
+    height: 5px;
+    background-color: #75FF8B;
+    top: -14vh;
+    left: 33vw;
+    position: relative;
+}
+
+.spread-gain-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #75FF8B;
+    top: -14vh;
+    left: 28.2vw;
+}
+
+.spread-max-profit {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #75FF8B;
+    top: -27vh;
+    left: 33vw;
+    text-align: center;
+}
+
+.spread-loss {
+    position: relative;
+    right: -58.65vw;
+    top: 6vh;
+    width: 350px;
+    height: 100px;
+}
+
+.spread-loss-text {
+    position: relative;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    color: #FF7575;
+    width: 200px;
+    left: -1.3vw;
+   
+}
+
+.spread-max-loss{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: #FF7575;
+    top: -13vh;
+    left: -0.5vw;
+    text-align: center;
+    
+}
+
+.spread-red-line {
+    width: 350px;
+    height: 5px;
+    background-color: #FF7575;
+    position: relative;
+    
+}
+
+.spread-submit {
+    position: absolute;
+    left: 12.5vw;
+    top: 55vh;
+    background-color:#75CAFF;
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    border: none;
+    width: 13%;
+}
+
+.expiry {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    position: relative;
+    top: 12vh;
+    left: 34vw;
+    display: inline;
+}
+
+.sold {
+    margin-left: -25px;
+}

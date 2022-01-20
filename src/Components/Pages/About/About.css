@@ -1,0 +1,33 @@
+.about {
+    background-color: black;
+}
+.about-page {
+    padding: 7vh 12vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.links {
+    color: #75CAFF;
+    text-decoration: none;
+}
+.page-title {
+    color: #75CAFF;
+    font-size: 80pt;
+    font-weight: bold;
+}
+
+.main-text{
+    color: #FFFFFF;
+    font-size: 18pt;
+}
+
+.sub-header {
+    font-size: 50pt;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.disclaimer {
+    color: #ffffffb7;
+}
+
