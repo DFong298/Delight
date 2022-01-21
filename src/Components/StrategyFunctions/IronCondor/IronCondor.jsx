@@ -81,8 +81,8 @@ const IronCondor = () => {
             setData(response.data);
             setHighBE(breakEvenCall(longCallStrike, shortCallStrike, longPutStrike, shortPutStrike, data.optionChain.result[0].options[0].calls, data.optionChain.result[0].options[0].puts).toFixed(2));
             setLowBE(breakEvenPut(longCallStrike, shortCallStrike, longPutStrike, shortPutStrike, data.optionChain.result[0].options[0].calls, data.optionChain.result[0].options[0].puts).toFixed(2));
-            setMaxLoss(100*calcMaxLoss(longCallStrike, shortCallStrike, longPutStrike, shortPutStrike, data.optionChain.result[0].options[0].calls, data.optionChain.result[0].options[0].puts).toFixed(2));
-            setMaxProfit(100*condorPremium(longCallStrike, shortCallStrike, longPutStrike, shortPutStrike, data.optionChain.result[0].options[0].calls, data.optionChain.result[0].options[0].puts).toFixed(2));
+            setMaxLoss((100*calcMaxLoss(longCallStrike, shortCallStrike, longPutStrike, shortPutStrike, data.optionChain.result[0].options[0].calls, data.optionChain.result[0].options[0].puts)).toFixed(2));
+            setMaxProfit((100*condorPremium(longCallStrike, shortCallStrike, longPutStrike, shortPutStrike, data.optionChain.result[0].options[0].calls, data.optionChain.result[0].options[0].puts)).toFixed(2));
           }).catch(function (error) {
             console.error(error);
           });

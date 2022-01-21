@@ -68,8 +68,8 @@ const CallSpread = () => {
         
         await axios.request(options).then(function (response) {
           setData(response.data);
-          setMaxLoss(100*spreadMaxLoss(lowStrike, highStrike, data.optionChain.result[0].options[0].calls).toFixed(2))
-          setMaxProfit(100*callSpreadProfit(lowStrike, highStrike, data.optionChain.result[0].options[0].calls).toFixed(2))
+          setMaxLoss((100*spreadMaxLoss(lowStrike, highStrike, data.optionChain.result[0].options[0].calls)).toFixed(2))
+          setMaxProfit((100*callSpreadProfit(lowStrike, highStrike, data.optionChain.result[0].options[0].calls)).toFixed(2))
         }).catch(function (error) {
           console.error(error);
         });
